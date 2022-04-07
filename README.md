@@ -1,6 +1,6 @@
 # RL study
 
-### 이론
+## 이론
 
 - 그 주의 담당자는 그 주의 분량에 MarkDown 형태로 자료를 정리하고, 강의형태로 리뷰를 진행.
 - 담당순서는 순환형태로 돌아가며 진행
@@ -12,6 +12,8 @@
 
 <details><summary>이론 일정</summary>
 
+
+<br>
 
 **Part 1. 강화학습 소개**
 
@@ -66,14 +68,17 @@
   - Ch 02. 심층 신경망을 활용한 함수근사
     - 07\. 합성곱 신경망 기초
 
-</details>
+​	</details>
 
-### 실습
+## 실습
 
 - [openai gym skiing](https://gym.openai.com/envs/Skiing-v0/)에 여러 알고리즘 적용
   - montecarlo, REINFOCE, Actor-critic, PPO
 
 <details><summary>환경 설정</summary>
+
+
+<br>
 
 - gym[atari] 설치 후 autorom 추가 설치
 
@@ -99,7 +104,9 @@ env.close()
 
   - [openai gym getting started](https://gym.openai.com/docs/)
 
+
   - [ModuleNotFoundError: No module named 'gym.envs.atari'](https://github.com/openai/gym/issues/2498)
+
 
   - [Error in importing environment OpenAI Gym](https://stackoverflow.com/questions/69442971/error-in-importing-environment-openai-gym)
 
